@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.title }}{% endblock %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-bg"></div>
+    <div class="header-content">
+      <h1><a href="/">Marjo Groen</a></h1>
+      <p class="subtitle">{{ site.subtitle }}</p>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="/"{% if current == 'index' %} class="active"{% endif %}>Over mij</a>
+    {% for cat in categories %}
+    <a href="/{{ cat.id }}/"{% if current == cat.id %} class="active"{% endif %}>{{ cat.name }}</a>
+    {% endfor %}
+    <a href="/contact/"{% if current == 'contact' %} class="active"{% endif %}>Contact</a>
+  </nav>
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <p>&copy; {{ site.author }}</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <script src="/js/lightbox.js"></script>
+</body>
+</html>

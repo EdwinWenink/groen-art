@@ -1,0 +1,753 @@
+natuur:
+- name: uiterwaarde Lathum
+  full: Natuur/Groot/uiterwaarde Lathum.jpg
+  dimensions: 80x160
+  materials: Acryl op doek
+  sold: true
+- name: Darss
+  full: Natuur/Groot/Darss.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 120x100
+  materials: Acryl op doek
+- name: Afgezaagd
+  full: Natuur/Groot/Afgezaagd.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 38x46
+  materials: Acryl op doek
+- name: Rondje Lathum
+  full: Natuur/Groot/Rondje Lathum.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x60
+  materials: Acryl op doek
+- name: Afgezaagd
+  full: Natuur/Groot/Afgezaagd.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 38x45
+  materials: Acryl op doek
+  price: 160
+- name: Lathumse Reus
+  full: Natuur/Groot/Lathumse Reus.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 120x160
+  materials: Acryl op doek
+  price: 1950
+- name: Molenstraatboom
+  full: Natuur/Groot/Molenstraatboom.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 80x120
+  materials: Acryl op doek
+  price: 960
+- name: Herst in Lathum
+  full: Natuur/Groot/Herst in Lathum.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op board
+  price: 90
+- name: Wilg Molenstraat
+  full: Natuur/Groot/Wilg Molenstraat.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op doek incl. lijst
+  price: 90
+- name: Lathums laantje
+  full: Natuur/Groot/Lathums laantje.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 18x24
+  materials: Acryl op doek incl. lijst
+  price: 75
+- name: Duo
+  full: Natuur/Groot/Duo.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 20x20
+  materials: Acryl op doek incl. lijst
+  price: 75
+- name: Boom Kerkstraat
+  full: Natuur/Groot/Boom Kerkstraat.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 90x55
+  materials: Acryl op MDF
+  price: 295
+- name: Oneindig
+  full: Natuur/Groot/Oneindig.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+  price: 160
+- name: Wilg
+  full: Natuur/Groot/Wilg.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 15x24
+  materials: Gemengde techniek op MDF
+  price: 45
+- name: Bloesem
+  full: Natuur/Groot/Bloesem.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 40x50
+  materials: Acryl op doek
+  sold: true
+- name: Verloren Boom
+  full: Natuur/Groot/Verloren Boom.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 60x120
+  materials: Acryl op doek
+  sold: true
+- name: Paarse Boom
+  full: Natuur/Groot/Boom.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 70x90
+  materials: Acryl op doek
+  price: 830
+- name: Donkere dagen
+  full: Natuur/Groot/Donkere dagen na Kerst.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op hardboard
+  price: 90
+- name: Uienbollenbos, Tweeluik
+  full: Natuur/Groot/60x90 Acryl op linnen Uienbollenbos.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 60x90
+  materials: Acryl op linnen
+  price: 980
+- name: Rode Boom
+  full: Natuur/Groot/50x70 acryl op karton Rode boom.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 50x70
+  materials: Acryl op karton
+  price: 125
+- name: Landschap
+  full: Natuur/Groot/50x70Acryl-op-doekLandschap.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 50x70
+  sold: true
+- name: Indische bloem
+  full: Natuur/Groot/IMG_0539.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 50x20
+  sold: true
+- name: Klessebessen.
+  full: Natuur/Groot/18x24Acryl-op-doek Klessebessen.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 18x24
+  materials: Acryl op doek
+  price: 50
+- name: Druppels
+  full: Natuur/Groot/38x46Acryl-op-doekDruppels.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 38x46
+  materials: Acryl op doek
+  price: 165
+- name: Nerf
+  full: Natuur/Groot/Nerf.jpg
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  materials: Acryl op doek
+  price: 195
+- name: Dreigende Dood
+  full: Natuur/Groot/24x30Acryl-op-doekDrijgendeDood.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 24x30
+  materials: Acryl op doek
+  price: 40
+- name: Boompaddestoel
+  full: Natuur/Groot/30x40Acryl-op-papierBoompaddestoel.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl op papier
+- name: Druipsteen
+  full: Natuur/Groot/40x35olie-op-papierDruipsteen.JPG
+  thumb: Natuur/uiterwaarde Lathum_thumb.jpg
+  dimensions: 30x40
+  materials: Olie op papier
+  price: 240
+dieren:
+- name: Bailey
+  full: Diversedieren/Groot/Bailey.jpg
+  dimensions: 20x30
+  materials: Acryl op doek
+  sold: true
+- name: hond Carla
+  full: Diversedieren/Groot/hond Carla.jpg
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op doek
+  sold: true
+- name: J.J.
+  full: Diversedieren/Groot/J.J..jpg
+  thumb: Diversedieren/Bailey_thumb.jpg
+  materials: Acryl op doek
+  sold: true
+- name: HaanKenR
+  full: Diversedieren/Groot/HaanKenR.jpg
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 30x50
+  materials: Acryl op doek
+  sold: true
+- name: In het gras
+  full: Diversedieren/Groot/40x40 Acryl op doek In het gras.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+  sold: true
+- name: Stevie's neus
+  full: Diversedieren/Groot/20x40Acryl-op-doek Stevie's neus.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 20x40
+  materials: Acryl op doek
+  price: 80
+- name: Varkens in de modder
+  full: Diversedieren/Groot/30x40Varkens-in-de-modder.jpg
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 30x40
+  sold: true
+- name: Roofvogel
+  full: Diversedieren/Groot/30x30acryl-op-doek-roofvogel.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op doek
+  price: 65
+- name: Schaap
+  full: Diversedieren/Groot/50x60Acryl-op-doekSchaap.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  materials: Acryl op doek
+  price: 200
+- name: Koeien in het veld
+  full: Diversedieren/Groot/60x80Acryl-op-doekKoeien.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  sold: true
+- name: Buitenbeentje
+  full: Diversedieren/Groot/30x90Acryl-op-doekBuitenbeentje.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  materials: Acryl op doek
+  price: 275
+- name: Kwal
+  full: Diversedieren/Groot/30x40Acryl-op-doekKwal.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl op doek
+  price: 95
+- name: Haan
+  full: Diversedieren/Groot/20x20Acryl-op-doekHaan.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 20x20
+  sold: true
+- name: Haan
+  full: Diversedieren/Groot/20x20Acryl-op-doekHaan2.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 20x20
+  sold: true
+- name: Haan
+  full: Diversedieren/Groot/20x20AcrylopdoekHaan.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 20x20
+  sold: true
+- name: Aap
+  full: Diversedieren/Groot/40x50Acryl-op-papierAap.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 40x50
+  materials: Acryl op papier
+- name: Nijlpaard
+  full: Diversedieren/Groot/40x50Acryl-op-papierNijlpaard.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 40x50
+  materials: Acryl op papier
+- name: Varkensneus
+  full: Diversedieren/Groot/Varkensneus15x15acryl-op-doek.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 10x10
+  materials: Acryl op doek
+- name: IJsbeer
+  full: Diversedieren/Groot/40x50Acryl-op-kartonIJsbeer.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 40x50
+  materials: Acryl op karton
+- name: Berenfamilie
+  full: Diversedieren/Groot/50x40Acryl-op-doekBerenfamilie.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 50x40
+  materials: Acryl op doek
+- name: Koala
+  full: Diversedieren/Groot/50x40Acryl-op-kartonKoala.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 50x40
+  materials: Acryl op karton
+- name: Krokodil
+  full: Diversedieren/Groot/40x30Acryl-op-papierKrokodil.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 40x30
+  materials: Acryl op papier
+- name: Vliegende Schildpad
+  full: Diversedieren/Groot/70x50Acryl-op-kartonVliegendeSchildpad.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 70x50
+  materials: Acryl op karton
+- name: Zeepaardje
+  full: Diversedieren/Groot/70x50Acryl-op-kartonZeepaardje.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 70x50
+  materials: Acryl op karton
+- name: Zebra's
+  full: Diversedieren/Groot/50x60Acryl-op-doekLachertje.jpg
+  thumb: Diversedieren/Bailey_thumb.jpg
+  dimensions: 50x60
+  materials: Acryl op doek
+  price: 165
+- name: Olifanten
+  full: Diversedieren/Groot/2x_30x24_Acryl-op-kartonOlifanten.JPG
+  thumb: Diversedieren/Bailey_thumb.jpg
+  materials: Acryl op karton
+kikkers:
+- name: Waterkikker
+  full: Kikkers/Groot/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+  materials: Acryl op doek
+  price: 115
+- name: Naamloos
+  full: Kikkers/Groot/30x30Acryl-op-doek.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+  materials: Acryl op doek
+  price: 115
+- name: Rode Kikker
+  full: Kikkers/Groot/50x50Acryl-op-doekRodeKikker.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 50x50
+  materials: Acryl op doek
+  price: 255
+- name: Kikker 1
+  full: Kikkers/Groot/30x30Acryl-op-doekKikker.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+- name: Kikker 2
+  full: Kikkers/Groot/30x30Acryl-op-doekKikker _2_.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+- name: Kikker 3
+  full: Kikkers/Groot/30x30Acryl-op-doekKikker _3_.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+- name: Tweeling
+  full: Kikkers/Groot/30x30Acryl-op-doekDeTweeling.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x30
+- name: Psycho Frog3
+  full: Kikkers/Groot/40x70Acryl-op-kartonPsychoFrog.jpg
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 40x70
+  materials: Acryl op karton
+- name: Drieluik Kikkers 2
+  full: Kikkers/Groot/3x_30x20_Acryl-op-doekKikkerDrieluik2.jpg
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  sold: true
+- name: Kikker 1
+  full: Kikkers/Groot/30x20Acryl-op-doekKikker.jpg
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x20
+  materials: Acryl op doek
+- name: Kikker 2
+  full: Kikkers/Groot/30x20Acryl-op-doekKikker_2_.jpg
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x20
+  materials: Acryl op doek
+- name: Kikker 3
+  full: Kikkers/Groot/30x20Acryl-op-doekKikker_3_.jpg
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 30x20
+  materials: Acryl op doek
+- name: 3D Kikker 3
+  full: Kikkers/Groot/40x40Acryl-op-doekKikker.JPG
+  thumb: Kikkers/30x30Acryl-op-doekWaterkikker.JPG
+  dimensions: 40x40
+vormen:
+- name: Binnenmeer
+  full: Vormen/Groot/Binnenmeer.jpg
+  dimensions: 100x100
+  materials: Acryl op doek
+  price: 1000
+- name: Horizonnen
+  full: Vormen/Groot/Horizonnen.jpg
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek, gemengde techniek
+  price: 160
+- name: Evenwicht
+  full: Vormen/Groot/Evenwicht.jpg
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op hardboard
+  price: 90
+- name: Kwal met parels
+  full: Vormen/Groot/Zonder titel.jpg
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl en gemengde techniek op doek
+  price: 115
+- name: Ordening
+  full: Vormen/Groot/40x40 Acryl op doek Ordening.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+  price: 160
+- name: Verenigde Vormen
+  full: Vormen/Groot/80x100 Acryl-op-doek Verenigde Vormen.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 80x100
+  sold: true
+- name: Snippers
+  full: Vormen/Groot/50x60Gemengde techniek Acryl Snippers.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 50x70
+  materials: Gemengde techniek Acryl op doek
+  price: 350
+- name: Trojan Horse
+  full: Vormen/Groot/50x40Acryl-op-doekTrojanHorse.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 50x40
+  materials: Acryl op doek
+  price: 155
+- name: Revolutie
+  full: Vormen/Groot/50x40olie-op-papierRevolutie.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 50x40
+  materials: Olie op papier
+- name: Titanic
+  full: Vormen/Groot/80x60Acryl-op-doekTitanic.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 80x60
+  materials: Acryl op doek
+- name: De Toren van Babylon
+  full: Vormen/Groot/100x70Acryl-op-kartonDeTorenVanBabylon.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 100x70
+  materials: Acryl op karton
+  price: 390
+- name: Duistere Wezens
+  full: Vormen/Groot/60x50Acryl-op-doekDuistereWezens.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 60x50
+  materials: Acryl op doek
+  price: 175
+- name: De Muur
+  full: Vormen/Groot/50x70Acryl-op-kartonMuur.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  dimensions: 50x70
+  materials: Acryl op karton
+  price: 155
+- name: Vleermuizengrot
+  full: Vormen/Groot/2x_50x60_acryl-op-doekVleermuisgrot.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  sold: true
+- name: Flarden
+  full: Vormen/Groot/70x70Acryl-op-doek.JPG
+  thumb: Vormen/Binnenmeer_thumb.jpg
+  materials: Acryl op doek
+  price: 490
+mysterie:
+- name: Oranje strand
+  full: Mysterie/Groot/Oranje strand.jpg
+  dimensions: 30x30
+  materials: Acryl op doek incl. lijst
+  price: 90
+- name: Druipstenen
+  full: Mysterie/Groot/Druipstenen.jpg
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 33x42
+  materials: Olie op papier
+  price: 240
+- name: Doorkijk
+  full: Mysterie/Groot/Doorkijk.jpg
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op MDF
+  price: 90
+- name: Cel
+  full: Mysterie/Groot/57x57 gemengde techniek op MDF Cel.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 57x57
+  materials: Gemengde techniek
+  price: 175
+- name: Kosmos
+  full: Mysterie/Groot/Kosmos.jpg
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 100x150
+  materials: Acryl op doek
+  price: 1250
+- name: In de Stilte
+  full: Mysterie/Groot/40x40 gemengde techniek In de stilte.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 40x40
+  materials: Gemengde techniek
+  price: 160
+- name: Kwallen
+  full: Mysterie/Groot/80x90Acryl-op-doekKwallen.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 80x90
+  sold: true
+- name: Kosmos in Kubus
+  full: Mysterie/Groot/30x30Acryl-op-doekKosmos in Kubus.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op doek
+  price: 65
+- name: Mysterie 3
+  full: Mysterie/Groot/60x50Acryl-op-doekMystery3.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 60x50
+  materials: Acryl op doek
+  price: 175
+- name: Kwijlende Draak
+  full: Mysterie/Groot/40x29olie-op-papierKwijlendeDraak.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 40x29
+  not_for_sale: true
+- name: Ancient Times
+  full: Mysterie/Groot/30x40Acryl en- oostindische-inkt-op-papierAncientTimes.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl en Oostindische inkt op papier
+  price: 75
+- name: Mysterie 4
+  full: Mysterie/Groot/60x50Acryl-op-doekMystery4.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 60x50
+  materials: Acryl op doek
+  price: 175
+- name: Zwevend
+  full: Mysterie/Groot/70x50Acryl-op-kartonZwevend.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 70x50
+- name: Mysterie 2
+  full: Mysterie/Groot/38x46Acryl-op-doekMystery2.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 38x64
+- name: Sprinkhaan
+  full: Mysterie/Groot/30x42Acryl-op-kartonSprinkhaan.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 30x42
+- name: Creepy
+  full: Mysterie/Groot/30x40Acryl-op-kartonCreepy.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 30x40
+- name: Mysterie 1
+  full: Mysterie/Groot/Groen-art-Foto`s -059.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 50x60
+- name: Circle of Life
+  full: Mysterie/Groot/60x60Acryl-op-doekCirkel-of-Life.JPG
+  thumb: Mysterie/Oranje strand_thumb.jpg
+  dimensions: 60x60
+skylines:
+- name: Nevel
+  full: Skylines/Groot/Nevel.jpg
+  dimensions: 40x100
+  materials: Acryl op doek
+- name: Skyline Huissen
+  full: Skylines/Groot/Skyline Huissen.jpg
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 40x60
+  materials: Acryl op doek
+  sold: true
+- name: Skyline Hamburg
+  full: Skylines/Groot/Skyline Hamburg.jpg
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 60x100
+  materials: Acryl op doek
+  sold: true
+- name: Skyline Rotterdam
+  full: Skylines/Groot/Skyline Rotterdam.jpg
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 80x240
+  materials: Acryl op doek
+  sold: true
+- name: Nevel
+  full: Skylines/Groot/40x120 acryl-op-doek Nevel.JPG
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 40x100
+  materials: Acryl op doek
+  price: 265
+- name: London Skyline
+  full: Skylines/Groot/40x120Acryl-op-doekSkyline 2.JPG
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 40x120
+  materials: Acryl op doek
+  price: 295
+- name: Skyline Rotterdam
+  full: Skylines/Groot/skylineRotterdam50x150x3D-acryl-op-doek.jpg
+  thumb: Skylines/Nevel_thumb.jpg
+  dimensions: 50x150
+  sold: true
+collages:
+- name: zonder titel 2
+  full: Collages/Groot/zonder titel 2.jpg
+  materials: papiercollage
+- name: broer
+  full: Collages/Groot/broer.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  materials: gemengde techniek op hout
+- name: vreugde
+  full: Collages/Groot/vreugde.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  materials: gemengde techniek op hout
+- name: theater
+  full: Collages/Groot/theater.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  materials: gemengde techniek op hout
+- name: zonder titel
+  full: Collages/Groot/zonder titel.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  materials: papiercollage
+- name: Goeie kop
+  full: Collages/Groot/Goeie kop.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  materials: papiercollage
+- name: Paris
+  full: Collages/Groot/Paris.jpg
+  thumb: Collages/zonder titel 2_thumb.jpg
+  dimensions: 30x30
+  materials: Acryl op MDF
+  price: 75
+- name: Dieren Collage 1
+  full: Collages/Groot/30x40Acryl-op-papierDierenCollage1.JPG
+  thumb: Collages/zonder titel 2_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl op papier
+  price: 120
+- name: Gele veer
+  full: Collages/Groot/50x40olie-op-papierCollage.JPG
+  thumb: Collages/zonder titel 2_thumb.jpg
+  dimensions: 50x40
+  materials: Olie op papier
+  price: 200
+- name: Dieren Collage 3
+  full: Collages/Groot/30x40Acryl-op-papierDierenCollage2.JPG
+  thumb: Collages/zonder titel 2_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl op papier
+  price: 120
+beweging:
+- name: Achtervolging
+  full: Beweging/Groot/achtervolging30x30papier-en-acryl-op-doek.JPG
+  dimensions: 30x30
+  materials: Papier en acryl op doek
+  price: 65
+- name: Hemels
+  full: Beweging/Groot/hemels40x40acryl-op-doek.JPG
+  thumb: Beweging/achtervolging30x30papier-en-acryl-op-doek.JPG
+  dimensions: 40x40
+  materials: Acryl op doek
+  price: 160
+- name: Uit je dak
+  full: Beweging/Groot/60x90Acryl-op-doek-uit-je-dak.JPG
+  thumb: Beweging/achtervolging30x30papier-en-acryl-op-doek.JPG
+  dimensions: 60x90
+  materials: Acryl op doek
+  price: 395
+- name: Swing
+  full: Beweging/Groot/70x70Acryl-op-doekSwing.JPG
+  thumb: Beweging/achtervolging30x30papier-en-acryl-op-doek.JPG
+  dimensions: 70x70
+  materials: Acryl op doek
+  price: 490
+portretten:
+- name: Atjeh-strijder
+  full: Portretten/Groot/Atjeh-strijder.jpg
+  dimensions: 70x90
+  materials: Acryl op doek
+- name: Edwin
+  full: Portretten/Groot/Edwin.jpg
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+- name: Robert
+  full: Portretten/Groot/Robert.jpg
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+- name: Groepsuitje
+  full: Portretten/Groot/Groepsuitje.jpg
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+  price: 155
+- name: Erna met hoedje
+  full: Portretten/Groot/Erna met hoedje.jpg
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  sold: true
+- name: Edwin, baby
+  full: Portretten/Groot/30x30 Houtskool op doek Edwin.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 30x30
+  materials: Houtskool op doek
+- name: Robert, baby
+  full: Portretten/Groot/30x30 Houtskool op doek Robert.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 30x30
+  materials: Houtskool op doek
+- name: Kristel, baby
+  full: Portretten/Groot/30x30 Houtskol op doek Kristel.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 30x30
+  materials: Houtskool op doek
+- name: Liefde
+  full: Portretten/Groot/Liefde2.jpg
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  sold: true
+- name: Drieluik Kinderen
+  full: Portretten/Groot/3x_40x40_Acryl-op-doekDrieluikKinderen.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+- name: Kristel
+  full: Portretten/Groot/40x40Acryl-op-doekKristel.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x40
+  materials: Acryl op doek
+- name: Linda Schellingerhout
+  full: Portretten/Groot/40x30Acryl-op-kartonLinda.JPG
+  thumb: Portretten/Atjeh-strijder_thumb.jpg
+  dimensions: 40x30
+  sold: true
+paarden:
+- name: Paardendroom 1
+  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 50x70
+  materials: Acryl op karton
+- name: Revolutie
+  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom2.JPG
+  thumb: Paarden/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 50x40
+  materials: Olie op papier
+- name: Ankie's Paard
+  full: Paarden/Groot/40x50Acryl-op-doekAnkie`sPaard.JPG
+  thumb: Paarden/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 40x50
+  materials: Acryl op doek
+- name: Springpaard
+  full: Paarden/Groot/24x30Acryl-op-doekSpringpaard.JPG
+  thumb: Paarden/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 24x30
+  materials: Acryl op doek
+- name: Zoektocht
+  full: Paarden/Groot/40x30Acryl-op-kartonZoektocht.JPG
+  thumb: Paarden/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 40x30
+stillevens:
+- name: Stilleven
+  full: Diversen/Groot/Stilleven.jpg
+  dimensions: 40x50
+  materials: Acryl op papier incl. lijst
+  price: 200
+- name: Kruiken
+  full: Diversen/Groot/60x40olie-op-papierKruiken.JPG
+  thumb: Diversen/Stilleven_thumb.jpg
+  dimensions: 60x40
+  not_for_sale: true
+- name: Op de Uitkijk
+  full: Diversen/Groot/40x30Acryl-op-kartonOpDeUitkijk.JPG
+  thumb: Diversen/Stilleven_thumb.jpg
+  dimensions: 40x30
+  materials: Acryl op karton
+- name: Goofy
+  full: Diversen/Groot/24x30Acryl-op-doekGoofy.JPG
+  thumb: Diversen/Stilleven_thumb.jpg
+  dimensions: 30x40
+  materials: Acryl op doek

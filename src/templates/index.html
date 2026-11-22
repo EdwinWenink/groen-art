@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}{{ site.title }}{% endblock %}
+
+{% block content %}
+<article class="about">
+  <h1>Welkom op Groen-art.nl!</h1>
+
+  <div class="about-content">
+    <p><strong>Groen-art.</strong></p>
+    <p>{{ about.intro }}</p>
+    {{ about.body | replace('\n\n', '</p><p>') | safe }}
+    <p>{{ about.commission }}</p>
+    <p>{{ about.closing }}</p>
+  </div>
+
+  <hr>
+
+  <section class="featured">
+    {% for item in featured %}
+    <figure class="featured-item">
+      <img src="/{{ item.image }}" alt="{{ item.title }}">
+      <figcaption>
+        <strong>{{ item.title }}</strong>
+        <p>{{ item.description }}</p>
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </section>
+
+  <section class="updates">
+    <h2>Nieuwe schilderijen op de site</h2>
+    <ul>
+      <li>In de categorie <a href="/natuur/">Natuur</a>: Uiterwaarde Lathum, Darss (groot formaat schilderijen)</li>
+      <li>In de categorie <a href="/dieren/">Dieren</a>: Bailey, hond Carla</li>
+      <li>In de categorie <a href="/mysterie/">Mysterie</a>: Boekomslag: Frisse bloesem, opgedroogd zweet</li>
+    </ul>
+  </section>
+</article>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }} | {{ site.title }}{% endblock %}
+
+{% block content %}
+<article class="gallery-page">
+  <h1>{{ category.name }}</h1>
+
+  <div class="gallery">
+    {% for art in artworks %}
+    <figure class="artwork" onclick="openLightbox('/{{ art.full }}', '{{ art.name | e }}{% if art.dimensions %} - {{ art.dimensions }}{% endif %}{% if art.materials %} - {{ art.materials }}{% endif %}{% if art.price %} - €{{ art.price }}{% endif %}{% if art.sold %} - Verkocht{% endif %}')">
+      <img src="/{{ art.thumb or art.full }}" alt="{{ art.name }}" loading="lazy">
+      <figcaption>
+        <strong>{{ art.name }}</strong>
+        {% if art.dimensions %}<span class="dims">{{ art.dimensions }}</span>{% endif %}
+        {% if art.materials %}<span class="materials">{{ art.materials }}</span>{% endif %}
+        {% if art.sold %}
+        <span class="status sold">Verkocht</span>
+        {% elif art.not_for_sale %}
+        <span class="status">Niet te koop</span>
+        {% elif art.price %}
+        <span class="price">€{{ art.price }}</span>
+        {% endif %}
+      </figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

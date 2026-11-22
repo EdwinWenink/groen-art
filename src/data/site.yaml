@@ -1,0 +1,86 @@
+site:
+  title: "De Schilderijen van Marjo Groen"
+  subtitle: "Natuurlijke kunst!"
+  description: "Schilderijen van Marjo Groen - natuur, dieren, abstracte vormen"
+  author: "Robert Wenink"
+
+about:
+  intro: |
+    Groene kunst? Natuur? Of ecologisch verantwoord schilderen?
+    De verklaring is simpeler: mijn naam is Marjo Groen.
+    Vandaar de naam van deze website.
+
+  body: |
+    Toch is natuur wel degelijk een inspiratiebron voor mijn schilderijen.
+    Zo schilder ik graag dieren en ook abstracte vormen, die ik vaak afleid
+    van concrete natuurverschijnselen.
+
+    Op de Vrije Academie in Zevenaar en later bij atelier "De Waan" heb ik
+    leren tekenen, schilderen en etsen, met allerlei materialen zoals potlood,
+    houtskool, krijt, inkt, aquarel-, olie- en acrylverf. Daarbij beoefende ik
+    verschillende schildertechnieken, van realistisch tot abstract.
+
+    Mijn zoektocht naar geliefde onderwerpen, kleurgebruik, stijl en materiaal
+    heeft tot verschillende inzichten geleid. Zo brengen mijn kleurige
+    schilderijen uit de beginperiode vrolijkheid en boeit mij momenteel de
+    mysterieuze kant van de natuur. Het meer abstraheren nodigt mij uit tot
+    "grasduinen" en telkens opnieuw en anders kijken.
+
+  commission: |
+    Ik schilder ook in opdracht. Hiervoor kunt u mij persoonlijk benaderen
+    via mail of mobiel (zie Contact).
+
+  closing: "Veel kijkplezier!"
+
+featured:
+  - image: images/Atjeh-strijder verkleind.jpg
+    title: Atjeh-strijder
+    description: |
+      In opdracht geschilderd. Omslag voor de roman "Overgeven of sneuvelen"
+      van Bert Wenink. De enige roman in de Nederlandse literatuur die de
+      volledige Atjeh-oorlog beschrijft.
+
+  - image: images/Boetius.jpeg
+    title: Boëtius en de skyline van Rotterdam
+    description: |
+      In opdracht geschilderd voor ex-Feyenoord prof-voetballer Jean Paul
+      Boëtius, de skyline van Rotterdam in acrylverf op doek van 80x240.
+
+categories:
+  - id: natuur
+    name: Natuur
+    folder: Natuur
+  - id: dieren
+    name: Dieren
+    folder: Diversedieren
+  - id: kikkers
+    name: Kikkers
+    folder: Kikkers
+  - id: vormen
+    name: Vormen
+    folder: Vormen
+  - id: mysterie
+    name: Mysterie
+    folder: Mysterie
+  - id: skylines
+    name: Skylines
+    folder: Skylines
+  - id: collages
+    name: Collages
+    folder: Collages
+  - id: beweging
+    name: Beweging
+    folder: Beweging
+  - id: portretten
+    name: Portretten
+    folder: Portretten
+  - id: paarden
+    name: Paarden
+    folder: Paarden
+  - id: stillevens
+    name: Stillevens
+    folder: Diversen
+
+contact:
+  email: "info@groen-art.nl"
+  note: "Voor opdrachten en vragen kunt u contact opnemen via email of telefoon."

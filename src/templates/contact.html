@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Contact | {{ site.title }}{% endblock %}
+
+{% block content %}
+<article class="contact-page">
+  <h1>Contact</h1>
+
+  <div class="contact-content">
+    <p>{{ contact.note }}</p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+    </div>
+
+    <p>
+      Voor opdrachten bespreek ik graag persoonlijk uw wensen.
+      Neem gerust contact op voor een vrijblijvend gesprek.
+    </p>
+  </div>
+</article>
+{% endblock %}
