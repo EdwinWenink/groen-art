@@ -1,0 +1,30 @@
+<div id="menu">
+	<ul>
+		<li class="current"><a href="index.php" accesskey="T" title=""><b>T</b>huispagina</a></li>
+		<li><a href="natuur.php" accesskey="N" title=""><b>N</b>atuur</a></li>
+		<li><a href="ddieren.php" accesskey="D" title=""><b>D</b>ieren</a></li>
+		<li><a href="kikkers.php" accesskey="k" title=""><b>K</b>ikkers</a></li>
+		<li><a href="vormen.php" accesskey="V" title=""><b>V</b>ormen</a></li>
+		<li><a href="mysterie.php" accesskey="M" title=""><b>M</b>ysterie</a></li>
+		<li><a href="skylines.php" accesskey="p" title=""><b>S</b>kylines</a></li>
+		<li><a href="collages.php" accesskey="C" title=""><b>C</b>ollages</a></li>
+		<li><a href="beweging.php" accesskey="p" title=""><b>B</b>eweging</a></li>
+		<li><a href="portretten.php" accesskey="p" title=""><b>P</b>ortretten</a></li>
+		<li><a href="paarden.php" accesskey="p" title=""><b>P</b>aarden</a></li>
+		<li><a href="diversen.php" accesskey="D" title=""><b>S</b>tillevens</a></li>
+
+<!--       <br> <li><a href="gastenboek/gastenboek.php" accesskey="R" title=""><b>G</b>astenboek</a></li>  -->
+		<li><a href="contact.php" accesskey="C" title=""><b>C</b>ontact</a></li>
+	</ul>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	var loc = window.location.pathname;
+
+$('ul').find('li').each(function() {
+
+  $(this).toggleClass('current', ("/"+$(this).find('a').attr('href')) == loc);
+  
+});
+</script>
+</div>

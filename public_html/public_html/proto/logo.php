@@ -1,0 +1,1 @@
+<?php if($logo=='Zeebras'){echo"<style type='text/css'>#logo{background:url(images/zeebras.JPG)no-repeat;}</style>";};?>

@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+
+<link href="/uploadify/uploadify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/uploadify/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/uploadify/swfobject.js"></script>
+<script type="text/javascript" src="/uploadify/jquery.uploadify.v2.1.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#file_upload').uploadify({
+    'uploader'  : '/uploadify/uploadify.swf',
+    'script'    : '/uploadify/uploadify.php',
+    'cancelImg' : '/uploadify/cancel.png',
+    'folder'    : '/uploads/',
+    'auto'      : true,
+	'multi'		: true,
+	'displayData' : 'percentage',
+	'expressInstall' : '/uploadify/expressInstall.swf',
+	'simUploadLimit' : 2,
+	'buttonText'  : 'Selecteer bestand'
+  });
+});
+</script>
+
+
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Boekensite | Bert Wenink</title>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Bert Boekenwurm</a></h1>
+			<p> </p>
+		</div>
+		<div id="search">
+			<form method="get" action="">
+				<fieldset>
+					<input type="text" name="s" id="search-text" size="15" />
+					<input type="submit" id="search-submit" value="GO" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div class="menu bubplastic horizontal red">
+		<ul>
+			<li class="highlight"><span class="menu_r"><a href="#"><span class="menu_ar">Home</a></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Gratis Schrijf Cursus</span></a></span></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Anna Katherina</span></a></span></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Over mij</span></a></span></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Links</span></a></span></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Contact</span></a></span></li>
+			<li><span class="menu_r"><a href="#"><span class="menu_ar">Winkel</span></a></span></li>
+		</ul><br class="clearit" />
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="content">
+			
+			
+			
+			<div class="post"> 
+				<div class="bg1"> <!-- achtergrond -->
+					<div class="bg2"> <!-- ronde kanten boven -->
+						<div class="bg3"> <!-- ronde kanten onder -->
+							<h2 class="title"><a href="#">Uploaden</a></h2>
+							<div class="entry">
+								<p class='meta'></p>
+								<p><input id="file_upload" name="file_upload" type="file" /><a href="javascript:$('#file_upload').uploadifyClearQueue();">Clear Queue</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>Gratis Schrijf cursus</h2>
+					<p>Hieronder dus linkjes naar alle artikelen van de gratis schrijf cursus.</p>
+				</li>
+				<li>
+					<h2>Linkjes Schrijf cursus</h2>
+					<ul>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2>Blog Archief</h2>
+					
+					<?php
+					
+echo "<ul>";
+//Open images directory
+$dir = @ dir("/uploads");
+
+//List files in images directory
+while (($file = $dir->read()) !== false)
+  {
+  echo "<li><a href='" . $file . "'>" . $file . "</a></li>";
+  }
+
+$dir->close();
+echo "</ul>";
+?>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer-wrapper">
+	<div id="footer">
+		<p>Copyright (c) 2011 Sitename.com. All rights reserved. 
+	</div>
+	<!-- end #footer -->
+</div>
+</body>
+</html>

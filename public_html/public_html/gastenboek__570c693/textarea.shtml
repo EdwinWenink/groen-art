@@ -1,0 +1,40 @@
+<form method="post" name="addbericht" action="bericht.php">
+<input type="hidden" value="<?php echo "".$ip."" ?>" name="ip">
+Naam: <input type="text" name="auteur">
+Email*:<input type="text" name="email"><br /><br />
+
+
+<textarea class="textarea" id="id" placeholder="Plaats hier uw bericht" name="bericht"  maxlength="400" autofocus></textarea>
+<br />
+
+<img id="B" style="margin: -2px"  onMouseover="this.style.cursor='pointer'" onClick="wissel('B','[b]','B2','[/b]')" src="images/knoppen/B.jpg" alt="Dik"  />
+<img id="I" style="margin: -2px"  onMouseover="this.style.cursor='pointer'" onClick="wissel('I','[i]','I2','[/i]')" src="images/knoppen/I.jpg" alt="Schuin">
+<img id="U" style="margin: -2px"  onMouseover="this.style.cursor='pointer'" onClick="wissel('U','[u]','U2','[/u]')" src="images/knoppen/U.jpg" alt="Onderstreept">
+<img id="abc-" style="margin: -2px"  onMouseover="this.style.cursor='pointer'" onClick="wissel('abc-','[s]','abc-2','[/s]')" src="images/knoppen/abc-.jpg" alt="Doorstreept">
+
+<br />
+
+<!-- Smileys -->
+
+<img style="margin: 1px; margin-left: 0px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :) ')" src="images/smilies/smile.png" alt="Emoticon">
+<img style="margin: 1px"  onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :D ')" src="images/smilies/laugh.png" alt="Emoticon">
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :p ')" src="images/smilies/tongue.png" alt="Emoticon">
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :( ')" src="images/smilies/sad.png" alt="Emoticon">
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' ;) ')" src="images/smilies/wink.gif" alt="Emoticon">
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :angry ')" src="images/smilies/angry.png" alt="Emoticon">
+<img style="margin: 1px; margin-left: 0px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :roll ')" src="images/smilies/eyeroll.gif" alt="Emoticon">
+<!--<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',':kiss')" src="images/smilies/kiss.gif" alt="Emoticon">-->
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :cool ')" src="images/smilies/cool.png" alt="Emoticon">
+<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' :cry ')" src="images/smilies/cry.gif" alt="Emoticon">
+<!--<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext(':huh')" src="images/smilies/huh.gif" alt="Emoticon">-->
+<!--<img style="margin: 1px" onMouseover="this.style.cursor='pointer'" onClick="addtext(':omg')" src="images/smilies/omg.gif" alt="Emoticon"><br /><br /> -->
+<br /> </table>
+<a style="margin: 1px; margin-left: 0px" onMouseover="this.style.cursor='pointer'" onClick="addtext('id',' [url] http://www. [/url] ')"> Link toevoegen </a> <br/>
+
+
+<br/>
+
+<input type="submit" value="   Inzenden   " name="submit">
+
+
+</form>
