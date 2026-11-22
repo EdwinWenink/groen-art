@@ -1,0 +1,15 @@
+# Build output
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+*:Zone.Identifier
+
+# IDE
+.idea/
+.vscode/
