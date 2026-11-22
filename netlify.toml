@@ -1,0 +1,7 @@
+[build]
+  base = "src"
+  publish = "../dist"
+  command = "pip install pyyaml jinja2 && python build.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
