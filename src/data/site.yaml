@@ -50,36 +50,47 @@ categories:
   - id: natuur
     name: Natuur
     folder: Natuur
+    header: images/Landschap.JPG
   - id: dieren
     name: Dieren
     folder: Diversedieren
+    header: images/Varkens-in-de-modder.jpg
   - id: kikkers
     name: Kikkers
     folder: Kikkers
+    header: images/RodeKikker.JPG
   - id: vormen
     name: Vormen
     folder: Vormen
+    header: images/Kwallen.JPG
   - id: mysterie
     name: Mysterie
     folder: Mysterie
+    header: images/AncientTimes.JPG
   - id: skylines
     name: Skylines
     folder: Skylines
+    header: images/Skyline.jpg
   - id: collages
     name: Collages
     folder: Collages
+    header: images/AncientTimes.JPG
   - id: beweging
     name: Beweging
     folder: Beweging
+    header: images/AncientTimes.JPG
   - id: portretten
     name: Portretten
     folder: Portretten
+    header: images/feest.JPG
   - id: paarden
     name: Paarden
     folder: Paarden
+    header: images/paarden1.jpg
   - id: stillevens
     name: Stillevens
     folder: Diversen
+    header: images/Skyline.jpg
 
 contact:
   email: "info@groen-art.nl"

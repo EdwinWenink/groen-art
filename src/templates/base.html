@@ -9,25 +9,26 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="header-bg"></div>
+  <header class="header" style="{% block header_bg %}background-image: url('/images/Landschap.JPG');{% endblock %}">
     <div class="header-content">
       <h1><a href="/">Marjo Groen</a></h1>
       <p class="subtitle">{{ site.subtitle }}</p>
     </div>
   </header>
 
-  <nav class="nav">
-    <a href="/"{% if current == 'index' %} class="active"{% endif %}>Over mij</a>
-    {% for cat in categories %}
-    <a href="/{{ cat.id }}/"{% if current == cat.id %} class="active"{% endif %}>{{ cat.name }}</a>
-    {% endfor %}
-    <a href="/contact/"{% if current == 'contact' %} class="active"{% endif %}>Contact</a>
-  </nav>
+  <div class="layout">
+    <main class="main">
+      {% block content %}{% endblock %}
+    </main>
 
-  <main class="main">
-    {% block content %}{% endblock %}
-  </main>
+    <nav class="sidebar">
+      <a href="/"{% if current == 'index' %} class="active"{% endif %}>Over mij</a>
+      {% for cat in categories %}
+      <a href="/{{ cat.id }}/"{% if current == cat.id %} class="active"{% endif %}>{{ cat.name }}</a>
+      {% endfor %}
+      <a href="/contact/"{% if current == 'contact' %} class="active"{% endif %}>Contact</a>
+    </nav>
+  </div>
 
   <footer class="footer">
     <p>&copy; {{ site.author }}</p>
