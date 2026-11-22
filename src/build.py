@@ -19,21 +19,30 @@ def load_yaml(path):
 def find_thumb(full_path, folder):
     """Find thumbnail for a full-size image."""
     full = Path(full_path)
-    base = full.stem
+    base = full.stem  # e.g., "Oranje strand" from "Mysterie/Groot/Oranje strand.jpg"
 
-    # Check for _thumb version
+    folder_path = HTML_DIR / folder
+
+    # Check for _thumb version (exact match)
     for ext in ['.jpg', '.JPG', '.jpeg', '.png']:
-        thumb = HTML_DIR / folder / f"{base}_thumb{ext}"
+        thumb = folder_path / f"{base}_thumb{ext}"
         if thumb.exists():
-            return f"{folder}/{base}_thumb{ext}"
+            return f"{folder}/{thumb.name}"
 
-    # Check for same name without Groot
+    # Check for same name without Groot folder
     for ext in ['.jpg', '.JPG', '.jpeg', '.png']:
-        thumb = HTML_DIR / folder / f"{base}{ext}"
+        thumb = folder_path / f"{base}{ext}"
         if thumb.exists():
-            return f"{folder}/{base}{ext}"
+            return f"{folder}/{thumb.name}"
 
-    # Return full path as fallback
+    # Search for files containing the base name (handles dimension-prefixed files)
+    # e.g., "Kosmos" might be "100x150Acryl-op-doekKosmos.JPG"
+    for f in folder_path.glob('*'):
+        if f.is_file() and base.lower() in f.stem.lower() and f.suffix.lower() in ['.jpg', '.jpeg', '.png']:
+            if 'Groot' not in str(f):
+                return f"{folder}/{f.name}"
+
+    # Return full path as fallback (will show large image)
     return full_path
 
 
@@ -44,8 +53,8 @@ def process_artworks(artworks, site_config):
     for cat_id, items in artworks.items():
         folder = categories.get(cat_id, cat_id.capitalize())
         for art in items:
-            if 'thumb' not in art or 'uiterwaarde' in art.get('thumb', ''):
-                art['thumb'] = find_thumb(art['full'], folder)
+            # Always find thumb dynamically
+            art['thumb'] = find_thumb(art['full'], folder)
 
     return artworks
 
