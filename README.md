@@ -22,9 +22,7 @@ groen/
 │   ├── Vormen/               # Abstract forms
 │   ├── Mysterie/             # Mystery paintings
 │   └── ...
-├── dist/                     # Generated site (do not edit)
-├── content/                  # Legacy content markdown files
-└── html/                     # Legacy folder (can be deleted)
+└── dist/                     # Generated site (do not edit)
 ```
 
 ## Building the Site
