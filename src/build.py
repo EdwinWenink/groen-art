@@ -78,8 +78,9 @@ def build():
     # Copy static files
     shutil.copytree(ROOT / "static/css", DIST / "css")
     shutil.copytree(ROOT / "static/js", DIST / "js")
+    shutil.copy(ASSETS_DIR / "favicon.ico", DIST / "favicon.ico")
 
-    # Copy images from html folder
+    # Copy images from assets folder
     print("Copying images...")
     for folder in ['images', 'Natuur', 'Diversedieren', 'Kikkers', 'Vormen', 'Mysterie',
                    'Skylines', 'Collages', 'Beweging', 'Portretten', 'Paarden', 'Diversen']:
