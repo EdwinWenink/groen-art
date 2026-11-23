@@ -8,7 +8,7 @@ from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).parent
 DIST = ROOT.parent / "dist"
-HTML_DIR = ROOT.parent / "html"  # Source images
+ASSETS_DIR = ROOT.parent / "assets"  # Source images
 
 
 def load_yaml(path):
@@ -21,7 +21,7 @@ def find_thumb(full_path, folder):
     full = Path(full_path)
     base = full.stem  # e.g., "Oranje strand" from "Mysterie/Groot/Oranje strand.jpg"
 
-    folder_path = HTML_DIR / folder
+    folder_path = ASSETS_DIR / folder
 
     # Check for _thumb version (exact match)
     for ext in ['.jpg', '.JPG', '.jpeg', '.png']:
@@ -83,7 +83,7 @@ def build():
     print("Copying images...")
     for folder in ['images', 'Natuur', 'Diversedieren', 'Kikkers', 'Vormen', 'Mysterie',
                    'Skylines', 'Collages', 'Beweging', 'Portretten', 'Paarden', 'Diversen']:
-        src = HTML_DIR / folder
+        src = ASSETS_DIR / folder
         if src.exists():
             shutil.copytree(src, DIST / folder)
             print(f"  {folder}: {sum(1 for _ in (DIST / folder).rglob('*') if _.is_file())} files")
