@@ -5,8 +5,8 @@
 }
 
 :root {
-  --color-bg: #f8faf8;
-  --color-content-bg: rgba(248, 252, 248, 0.95);
+  --color-bg: #f0f8f0;
+  --color-content-bg: rgba(240, 250, 240, 0.95);
   --color-text: #333;
   --color-heading: #2d5a27;
   --color-accent: #2d5a27;
