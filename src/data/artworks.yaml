@@ -132,23 +132,23 @@ natuur:
   price: 240
 dieren:
 - name: Paardendroom 1
-  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom1.JPG
+  full: Diversedieren/Groot/50x70Acryl-op-kartonPaardendroom1.JPG
   dimensions: 50x70
   materials: Acryl op karton
 - name: Revolutie
-  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom2.JPG
+  full: Diversedieren/Groot/50x70Acryl-op-kartonPaardendroom2.JPG
   dimensions: 50x40
   materials: Olie op papier
 - name: Ankie's Paard
-  full: Paarden/Groot/40x50Acryl-op-doekAnkie`sPaard.JPG
+  full: Diversedieren/Groot/40x50Acryl-op-doekAnkie`sPaard.JPG
   dimensions: 40x50
   materials: Acryl op doek
 - name: Springpaard
-  full: Paarden/Groot/24x30Acryl-op-doekSpringpaard.JPG
+  full: Diversedieren/Groot/24x30Acryl-op-doekSpringpaard.JPG
   dimensions: 24x30
   materials: Acryl op doek
 - name: Zoektocht
-  full: Paarden/Groot/40x30Acryl-op-kartonZoektocht.JPG
+  full: Diversedieren/Groot/40x30Acryl-op-kartonZoektocht.JPG
   dimensions: 40x30
 - name: Bailey
   full: Diversedieren/Groot/Bailey.jpg
@@ -261,53 +261,53 @@ dieren:
   full: Diversedieren/Groot/2x_30x24_Acryl-op-kartonOlifanten.JPG
   materials: Acryl op karton
 - name: Waterkikker
-  full: Kikkers/Groot/30x30Acryl-op-doekWaterkikker.JPG
+  full: Diversedieren/Groot/30x30Acryl-op-doekWaterkikker.JPG
   dimensions: 30x30
   materials: Acryl op doek
   price: 115
-- name: Naamloos
-  full: Kikkers/Groot/30x30Acryl-op-doek.JPG
+- name: Kikker 
+  full: Diversedieren/Groot/30x30Acryl-op-doek.JPG
   dimensions: 30x30
   materials: Acryl op doek
   price: 115
 - name: Rode Kikker
-  full: Kikkers/Groot/50x50Acryl-op-doekRodeKikker.JPG
+  full: Diversedieren/Groot/50x50Acryl-op-doekRodeKikker.JPG
   dimensions: 50x50
   materials: Acryl op doek
   price: 255
 - name: Kikker 1
-  full: Kikkers/Groot/30x30Acryl-op-doekKikker.JPG
+  full: Diversedieren/Groot/30x30Acryl-op-doekKikker.JPG
   dimensions: 30x30
 - name: Kikker 2
-  full: Kikkers/Groot/30x30Acryl-op-doekKikker _2_.JPG
+  full: Diversedieren/Groot/30x30Acryl-op-doekKikker _2_.JPG
   dimensions: 30x30
 - name: Kikker 3
-  full: Kikkers/Groot/30x30Acryl-op-doekKikker _3_.JPG
+  full: Diversedieren/Groot/30x30Acryl-op-doekKikker _3_.JPG
   dimensions: 30x30
 - name: Tweeling
-  full: Kikkers/Groot/30x30Acryl-op-doekDeTweeling.JPG
+  full: Diversedieren/Groot/30x30Acryl-op-doekDeTweeling.JPG
   dimensions: 30x30
 - name: Psycho Frog3
-  full: Kikkers/Groot/40x70Acryl-op-kartonPsychoFrog.jpg
+  full: Diversedieren/Groot/40x70Acryl-op-kartonPsychoFrog.jpg
   dimensions: 40x70
   materials: Acryl op karton
 - name: Drieluik Kikkers 2
-  full: Kikkers/Groot/3x_30x20_Acryl-op-doekKikkerDrieluik2.jpg
+  full: Diversedieren/Groot/3x_30x20_Acryl-op-doekKikkerDrieluik2.jpg
   sold: true
 - name: Kikker 1
-  full: Kikkers/Groot/30x20Acryl-op-doekKikker.jpg
+  full: Diversedieren/Groot/30x20Acryl-op-doekKikker.jpg
   dimensions: 30x20
   materials: Acryl op doek
 - name: Kikker 2
-  full: Kikkers/Groot/30x20Acryl-op-doekKikker_2_.jpg
+  full: Diversedieren/Groot/30x20Acryl-op-doekKikker_2_.jpg
   dimensions: 30x20
   materials: Acryl op doek
 - name: Kikker 3
-  full: Kikkers/Groot/30x20Acryl-op-doekKikker_3_.jpg
+  full: Diversedieren/Groot/30x20Acryl-op-doekKikker_3_.jpg
   dimensions: 30x20
   materials: Acryl op doek
 - name: 3D Kikker 3
-  full: Kikkers/Groot/40x40Acryl-op-doekKikker.JPG
+  full: Diversedieren/Groot/40x40Acryl-op-doekKikker.JPG
   dimensions: 40x40
 vormen:
 - name: Binnenmeer

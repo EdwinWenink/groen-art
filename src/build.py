@@ -53,8 +53,9 @@ def process_artworks(artworks, site_config):
     for cat_id, items in artworks.items():
         folder = categories.get(cat_id, cat_id.capitalize())
         for art in items:
-            # Always find thumb dynamically
-            art['thumb'] = find_thumb(art['full'], folder)
+            # Use explicit thumb if set, otherwise find dynamically
+            if 'thumb' not in art:
+                art['thumb'] = find_thumb(art['full'], folder)
 
     return artworks
 
@@ -82,8 +83,8 @@ def build():
 
     # Copy images from assets folder
     print("Copying images...")
-    for folder in ['images', 'Natuur', 'Diversedieren', 'Kikkers', 'Vormen', 'Mysterie',
-                   'Skylines', 'Collages', 'Beweging', 'Portretten', 'Paarden', 'Diversen']:
+    for folder in ['images', 'Natuur', 'Diversedieren', 'Vormen', 'Mysterie',
+                   'Skylines', 'Collages', 'Beweging', 'Portretten', 'Diversen']:
         src = ASSETS_DIR / folder
         if src.exists():
             shutil.copytree(src, DIST / folder)
