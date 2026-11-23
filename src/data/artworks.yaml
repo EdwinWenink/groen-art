@@ -8,10 +8,12 @@ natuur:
   full: Natuur/Groot/Darss.jpg
   dimensions: 120x100
   materials: Acryl op doek
+  price: 950
 - name: Rondje Lathum
   full: Natuur/Groot/Rondje Lathum.jpg
   dimensions: 30x60
   materials: Acryl op doek
+  price: 180
 - name: Afgezaagd
   full: Natuur/Groot/Afgezaagd.jpg
   dimensions: 38x45
@@ -129,6 +131,25 @@ natuur:
   materials: Olie op papier
   price: 240
 dieren:
+- name: Paardendroom 1
+  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom1.JPG
+  dimensions: 50x70
+  materials: Acryl op karton
+- name: Revolutie
+  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom2.JPG
+  dimensions: 50x40
+  materials: Olie op papier
+- name: Ankie's Paard
+  full: Paarden/Groot/40x50Acryl-op-doekAnkie`sPaard.JPG
+  dimensions: 40x50
+  materials: Acryl op doek
+- name: Springpaard
+  full: Paarden/Groot/24x30Acryl-op-doekSpringpaard.JPG
+  dimensions: 24x30
+  materials: Acryl op doek
+- name: Zoektocht
+  full: Paarden/Groot/40x30Acryl-op-kartonZoektocht.JPG
+  dimensions: 40x30
 - name: Bailey
   full: Diversedieren/Groot/Bailey.jpg
   dimensions: 20x30
@@ -577,26 +598,6 @@ portretten:
   full: Portretten/Groot/40x30Acryl-op-kartonLinda.JPG
   dimensions: 40x30
   sold: true
-paarden:
-- name: Paardendroom 1
-  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom1.JPG
-  dimensions: 50x70
-  materials: Acryl op karton
-- name: Revolutie
-  full: Paarden/Groot/50x70Acryl-op-kartonPaardendroom2.JPG
-  dimensions: 50x40
-  materials: Olie op papier
-- name: Ankie's Paard
-  full: Paarden/Groot/40x50Acryl-op-doekAnkie`sPaard.JPG
-  dimensions: 40x50
-  materials: Acryl op doek
-- name: Springpaard
-  full: Paarden/Groot/24x30Acryl-op-doekSpringpaard.JPG
-  dimensions: 24x30
-  materials: Acryl op doek
-- name: Zoektocht
-  full: Paarden/Groot/40x30Acryl-op-kartonZoektocht.JPG
-  dimensions: 40x30
 stillevens:
 - name: Stilleven
   full: Diversen/Groot/Stilleven.jpg

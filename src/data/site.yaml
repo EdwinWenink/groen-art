@@ -79,10 +79,6 @@ categories:
     name: Portretten
     folder: Portretten
     header: images/feest.JPG
-  - id: paarden
-    name: Paarden
-    folder: Paarden
-    header: images/paarden1.jpg
   - id: stillevens
     name: Stillevens
     folder: Diversen
